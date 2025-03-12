@@ -1,0 +1,12 @@
+2025-03-12 14:53:08 - root -DEBUG - Adding 10 + 15 = 25
+2025-03-12 14:53:08 - root -DEBUG - Adding 10 + 15 = 25
+2025-03-12 14:53:08 - root -DEBUG - Adding 10 + 15 = -5
+2025-03-12 14:53:08 - root -DEBUG - Adding 10 + 15 = 0.6666666666666666
+2025-03-12 14:53:32 - root -DEBUG - Adding 2 + 3 = 5
+2025-03-12 14:53:32 - root -DEBUG - Adding 3 + 2 = 5
+2025-03-12 14:53:32 - root -DEBUG - Adding 10 + 5 = 5
+2025-03-12 14:53:32 - root -DEBUG - Adding 16 + 11 = 1.4545454545454546
+2025-03-12 14:54:35 - root -DEBUG - Adding 2 + 3 = 5
+2025-03-12 14:54:35 - root -DEBUG - Subtracting 3 - 2 = 1
+2025-03-12 14:54:35 - root -DEBUG - Multiplying 10 * 5 = 50
+2025-03-12 14:54:35 - root -DEBUG - Dividing 16 / 11 = 1.4545454545454546
