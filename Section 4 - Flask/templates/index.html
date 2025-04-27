@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sahil Sehgal - Data Science Portfolio</title>
+    <style>
+        /* Basic Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #1e1e1e;
+            color: white;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            text-align: center;
+            padding: 50px;
+            background: linear-gradient(to right, #FFB6C1, #FF6347);
+            color: #fff;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        header h1 {
+            font-size: 3rem;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 5px;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            margin-top: 10px;
+        }
+
+        .section {
+            padding: 50px;
+            margin: 30px 0;
+        }
+
+        .section h2 {
+            font-size: 2rem;
+            text-align: center;
+            text-transform: uppercase;
+            color: #FF6347;
+            font-weight: 600;
+            margin-bottom: 20px;
+        }
+
+        .card {
+            background-color: #292929;
+            border-radius: 10px;
+            padding: 30px;
+            margin: 20px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+        }
+
+        .card h3 {
+            font-size: 1.8rem;
+            margin-bottom: 15px;
+            color: #ffcc00;
+        }
+
+        .card p {
+            font-size: 1rem;
+            color: #bbb;
+        }
+
+        .skills ul {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            list-style-type: none;
+        }
+
+        .skills li {
+            background-color: #FF6347;
+            margin: 5px;
+            padding: 10px 20px;
+            border-radius: 20px;
+            font-weight: bold;
+        }
+
+        .projects .project-item {
+            display: flex;
+            justify-content: space-between;
+            background-color: #333;
+            padding: 20px;
+            margin: 10px;
+            border-radius: 8px;
+        }
+
+        .projects .project-item a {
+            color: #ffcc00;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .projects .project-item a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            background-color: #FF6347;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Sahil Sehgal</h1>
+        <p>Data Scientist | Machine Learning Enthusiast | Problem Solver</p>
+    </header>
+
+    <section class="section about">
+        <h2>About Me</h2>
+        <div class="card">
+            <p>Hello! I’m Sahil, a passionate data scientist with a strong foundation in machine learning and deep learning. I love exploring data, building models, and creating insights that drive business decisions. I thrive in problem-solving environments, always looking for innovative solutions and continuous learning.</p>
+        </div>
+    </section>
+
+    <section class="section skills">
+        <h2>Skills</h2>
+        <div class="card">
+            <ul>
+                <li>Python</li>
+                <li>Machine Learning</li>
+                <li>Deep Learning</li>
+                <li>TensorFlow</li>
+                <li>PyTorch</li>
+                <li>Data Analysis</li>
+                <li>SQL</li>
+                <li>Data Visualization</li>
+                <li>Big Data Technologies</li>
+                <li>Cloud Computing</li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="section experience">
+        <h2>Experience</h2>
+        <div class="card">
+            <h3>Data Science Intern | Segmind</h3>
+            <p>As a Deep Learning Engineer Intern at Segmind, I worked on cutting-edge AI research, developing image generation workflows, and fine-tuning generative models like Stable Diffusion for diverse applications. I was responsible for deploying models and APIs to the Segmind platform and building end-to-end pipelines.</p>
+        </div>
+        <div class="card">
+            <h3>Data Analyst | TresVista Analytics</h3>
+            <p>Led the development of scalable data pipelines and advanced forecasting models, improving decision-making capabilities for financial clients. Enhanced reporting infrastructure and optimized data workflows, reducing costs and improving process efficiency.</p>
+        </div>
+    </section>
+
+    <section class="section education">
+        <h2>Education</h2>
+        <div class="card">
+            <h3>Master of Science in Data Science</h3>
+            <p>University of New Haven, 2024</p>
+            <h3>Bachelor of Technology in Computer Science & Engineering</h3>
+            <p>Guru Gobind Singh Indraprastha University, 2020</p>
+        </div>
+    </section>
+
+    <section class="section projects">
+        <h2>Projects</h2>
+        <div class="card">
+            <div class="project-item">
+                <div>
+                    <h3>Thoracic Disease Detection in Chest X-rays</h3>
+                    <p>Fine-tuned deep learning models using TensorFlow for detecting thoracic diseases from X-ray images and generating radiology reports.</p>
+                </div>
+                <a href="#">View Project</a>
+            </div>
+            <div class="project-item">
+                <div>
+                    <h3>Fashion Virtual Try-On System</h3>
+                    <p>Developed a virtual try-on system using FLUX and deep learning models, allowing users to visualize clothing on their images with auto-masking features.</p>
+                </div>
+                <a href="#">View Project</a>
+            </div>
+            <div class="project-item">
+                <div>
+                    <h3>Retail Demand Forecasting</h3>
+                    <p>Built ARIMA and LSTM-based models to forecast sales trends for retail, improving stock management and inventory prediction.</p>
+                </div>
+                <a href="#">View Project</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Sahil Sehgal | All Rights Reserved</p>
+    </footer>
+
+</body>
+
+</html>

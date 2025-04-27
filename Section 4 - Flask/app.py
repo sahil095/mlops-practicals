@@ -1,4 +1,4 @@
-from flask import Flask
+from flask import Flask, render_template
 
 '''
     It creates an instance of the Flask class,
@@ -9,8 +9,11 @@ app = Flask(__name__)
 
 @app.route("/")
 def welcome():
-    return "Welcome to Flask tutorial"
+    return "Welcome to Flask tutorial."
 
+@app.route("/index")
+def index():
+    return render_template('index.html')
 
 if __name__ == "__main__":
-    app.run()
+    app.run(debug=True)
