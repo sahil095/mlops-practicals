@@ -17,3 +17,7 @@ This repository includes all the practical exercises and projects from the cours
 ### 3. **Git and GitHub**
    - Version control using Git and GitHub to manage and collaborate on code.
    - Learn to use branching, pull requests, and version tags for team collaboration and project management.
+
+### 4. **MLFlow**
+   - Track experiments and models using MLFlow.
+   - Learn how to log metrics, hyperparameters, and models, and how to visualize results and track experiments over time.
